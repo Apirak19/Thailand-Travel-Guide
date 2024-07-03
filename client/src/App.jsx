@@ -1,13 +1,13 @@
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
-import Homepage from "./pages/Homepage";
-
+import NewHomepage from "./pages/NewHomepage";
 function App() {
   return (
     <ChakraProvider>
       <Routes>
-        <Route path="/" element={<Homepage />}></Route>
+        <Route path="/" element={<NewHomepage />}></Route>
       </Routes>
     </ChakraProvider>
   );

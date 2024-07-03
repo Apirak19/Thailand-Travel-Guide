@@ -11,7 +11,8 @@ const trips = [
       "https://img.wongnai.com/p/1600x0/2019/07/02/941dbb607f0742bbadd63bbbd993e187.jpg",
       "https://img.wongnai.com/p/1600x0/2019/07/02/bd1d256256c14c208d0843a345f75741.jpg",
     ],
-    tags: ["เกาะ", "ทะเล", "จุดชมวิว", "ธรรมชาติ", "ตราด"],
+    tags: ["island", "beach", "sightseeing", "nature"],
+    like: 10
   },
   {
     title: "Top ways to experience Koh Larn",
@@ -26,49 +27,11 @@ const trips = [
       "https://img.wongnai.com/p/1600x0/2020/02/18/68289e188ea54e00b5e9d806cfd0fc54.jpg",
     ],
     tags: [
-      "คาเฟ่",
-      "ร้านกาแฟ",
-      "จุดถ่ายรูป",
-      "เที่ยวใกล้กรุง",
-      "กรุงเทพมหานคร",
+      "cafe",
+      "sightseeing",
+      "suburban",,
     ],
-  },
-  {
-    title: "เที่ยวทุ่งทานตะวันชลบุรี ได้รูปสวยไม่ต้องไปไกลที่ ไร่คีรีบูรพา",
-    eid: "3",
-    url: "https://www.wongnai.com/trips/ki-ri-burapha-sun-flower",
-    description:
-      "บานสะพรั่งแล้วจ้า กับทุ่งทานตะวันที่ใหญ่กว่า 30 ไร่ แต่อย่าชะล่าใจไป เพราะว่าเปิดให้เข้าชมถึงแค่เดือนมกราคมเท่านั้น งั้นอย่าช้าไปที่ ไร่คีรีบูรพา ชลบุรี",
-    photos: [
-      "https://img.wongnai.com/p/1600x0/2019/12/27/777681c6184b498baead821895f7d7ab.jpg",
-      "https://img.wongnai.com/p/1600x0/2019/12/27/10b2aaf1f0df42a98d0b482e254789ee.jpg",
-      "https://img.wongnai.com/p/1600x0/2019/12/27/79e5b71efa54433b909e08bac13f27bb.jpg",
-      "https://img.wongnai.com/p/1600x0/2019/12/27/939f644df3d847409a85c1b2d054af25.jpg",
-    ],
-    tags: ["จุดถ่ายรูป", "ถ่ายรูปสวย", "เที่ยวใกล้กรุง", "ชลบุรี"],
-  },
-  {
-    title:
-      "เที่ยวสิ้นปี บ้านอีต่องเหมืองปิล็อก ชมหมอก กินหมูกระทะ ล่าทางช้างเผือก",
-    eid: "4",
-    url: "https://www.wongnai.com/trips/travel-at-etong-pilok",
-    description:
-      "จังหวะ จะเที่ยว บ้านอีต่อง เหมืองปิล็อก ตามล่าทะเลหมอกหน้าหนาว เดินเที่ยวหมู่บ้านเหมืองเก่าน่ารัก กินหมูกระทะท้าลมหนาว รอดูทางช้างเผือก แล้วปิดทริปที่น้ำตก",
-    photos: [
-      "https://img.wongnai.com/p/1600x0/2019/12/25/54961e4326954765a80cd20e2044083d.jpg",
-      "https://img.wongnai.com/p/1600x0/2019/12/25/183af5673b074e55a3842aca97676220.jpg",
-      "https://img.wongnai.com/p/1600x0/2019/12/25/9bbcb032afc145d19e485defcf2067c1.jpg",
-      "https://img.wongnai.com/p/1600x0/2019/12/25/2974828fdb16492da0e8f35f627ade7a.jpg",
-    ],
-    tags: [
-      "จุดถ่ายรูป",
-      "หมู่บ้าน",
-      "ภูเขา",
-      "ธรรมชาติ",
-      "ถ่ายรูปสวย",
-      "บ้านอีต่องเหมืองปิล็อก",
-      "กาญจนบุรี",
-    ],
+    like: 11
   },
   {
     title:
@@ -83,7 +46,8 @@ const trips = [
       "https://img.wongnai.com/p/1600x0/2019/10/10/e51a7af0bd18463db0685057809368ef.jpg",
       "https://img.wongnai.com/p/1600x0/2019/10/10/49c6a0f4c25a41b08b3ca47ce410195d.jpg",
     ],
-    tags: ["จุดถ่ายรูป", "ถ่ายรูปสวย", "ร้านกาแฟ", "เชียงใหม่", "คาเฟ่"],
+    tags: ["sightseeing", "ถ่ายรูปสวย", "ร้านกาแฟ", "เชียงใหม่", "cafe"],
+    like: 20
   },
   {
     title: "เที่ยวเกาะหลีเป๊ะ กิน เที่ยว พักที่ไหน? จัดมาให้ครบ!",
@@ -97,7 +61,8 @@ const trips = [
       "https://img.wongnai.com/p/1600x0/2019/07/31/4edab94617f642d7ac11efd9bccb9863.jpg",
       "https://img.wongnai.com/p/1600x0/2019/07/31/58348f4c3ace47349e80e5930a7a525a.jpg",
     ],
-    tags: ["ทะเล", "เกาะ", "สตูล", "ธรรมชาติ"],
+    tags: ["beach", "island", "สตูล", "nature"],
+    like: 20
   },
   {
     title: "คู่มือเที่ยวไต้หวันง่าย ๆ ฉบับ 2020 ฉลองต่อวีซ่าฟรี!",
@@ -111,7 +76,8 @@ const trips = [
       "https://img.wongnai.com/p/1920x0/2019/07/11/c725886d14b144868cf368bee07d1441.jpg",
       "https://img.wongnai.com/p/1920x0/2019/07/11/83cda5c3853443c4a1398fb3ae6b31a8.jpg",
     ],
-    tags: ["จุดถ่ายรูป", "ต่างประเทศ", "ไต้หวัน", "ธรรมชาติ"],
+    tags: ["sightseeing", "ต่างประเทศ", "ไต้หวัน", "nature"],
+    like: 20
   },
   {
     title: "เที่ยวญี่ปุ่นไปกับภูเขาไฟชื่อดังให้สุดฟินจาก 15 มุมสุดงาม~",
@@ -125,7 +91,8 @@ const trips = [
       "https://img.wongnai.com/p/1600x0/2019/06/04/bf2c001a72314452a261bff3f039ccdc.jpg",
       "https://img.wongnai.com/p/1600x0/2019/06/04/37b377e43f344da794cb3353aeca3fcf.jpg",
     ],
-    tags: ["จุดถ่ายรูป", "ต่างประเทศ", "ญี่ปุ่น", "ธรรมชาติ", "ภูเขา"],
+    tags: ["sightseeing", "ต่างประเทศ", "ญี่ปุ่น", "nature", "ภูเขา"],
+    like: 20
   },
   {
     title: "เที่ยวฝรั่งเศส เช็กอินเมืองในฝัน เก็บแลนด์มาร์กสุดปังในปารีส",
@@ -139,7 +106,8 @@ const trips = [
       "https://img.wongnai.com/p/1600x0/2019/05/23/0e56670f9e0e43e7b26c312583ecca51.jpg",
       "https://img.wongnai.com/p/1600x0/2019/05/23/7a677ee703ab448b9ca20c847aa74ce3.jpg",
     ],
-    tags: ["จุดถ่ายรูป", "ต่างประเทศ", "ฝรั่งเศส"],
+    tags: ["sightseeing", "ต่างประเทศ", "ฝรั่งเศส"],
+    like: 20
   },
   {
     title: "เที่ยวฟินแลนด์แบบฟิน ๆ ไปฟาร์ม Husky ขี่ Reindeer เล่น Snowmobile",
@@ -153,7 +121,8 @@ const trips = [
       "https://img.wongnai.com/p/1600x0/2019/05/21/e87ce6e73c634532afd50dd02517fee9.jpg",
       "https://img.wongnai.com/p/1600x0/2019/05/21/ea0f93584b3c4f3ba0680fcc11bc3a13.jpg",
     ],
-    tags: ["ต่างประเทศ", "ฟินแลนด์", "หิมะ", "ธรรมชาติ"],
+    tags: ["ต่างประเทศ", "ฟินแลนด์", "หิมะ", "nature"],
+    like: 20
   },
 ];
 

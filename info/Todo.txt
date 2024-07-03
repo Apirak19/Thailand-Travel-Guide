@@ -1,0 +1,12 @@
+* Responsive for
+-mobile
+-pc
+* landing page
+* category page
+* item page
+* Final styling
+* connect to db (Mongo)
+* login/register (to enable fav/ create post)
+* favorited
+
+? image carousel

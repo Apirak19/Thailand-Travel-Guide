@@ -26,7 +26,10 @@ const Homepage = () => {
   const getData = async () => {
     try {
       let response = await axios.get(
-        `http://localhost:4001/trips?keywords=${[...selected, keyword].toString()}`
+        `http://localhost:4001/trips?keywords=${[
+          ...selected,
+          keyword,
+        ].toString()}`
       );
       setData(response.data.data);
     } catch (error) {
@@ -47,14 +50,16 @@ const Homepage = () => {
           <h1 className="text-4xl mt-[50px] text-center text-blue-400 font-[700] ">
             Thailand Travel Guide
           </h1>
-          <p className="mt-[50px]">Search your destination</p>
-          <input
-            type="text"
-            onChange={(e) => handleInput(e.target.value)}
-            placeholder="หาที่เที่ยวแล้วไปกัน..."
-            value={keyword}
-            className="w-[500px] my-[10px] text-center border-b-2"
-          />
+          <div className="flex items-center gap-[40px] mt-[20px]">
+            <p className="">Search your destination</p>
+            <input
+              type="text"
+              onChange={(e) => handleInput(e.target.value)}
+              placeholder="หาที่เที่ยวแล้วไปกัน..."
+              value={keyword}
+              className="w-[500px] my-[10px] text-center border-b-2"
+            />
+          </div>
         </div>
 
         <div className="flex gap-[10px]">
