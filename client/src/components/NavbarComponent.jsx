@@ -11,14 +11,17 @@ import "../App.css";
 
 function NavbarComponent() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container fluid>
+    <Navbar expand="lg" className="bg-body-tertiary ">
+      <Container
+        fluid
+        className="d-flex gap-5 justify-content-center align-content-center"
+      >
         <Navbar.Brand href="#" className="text-primary fw-bold noto-sans">
           Thailand Travel Guide
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Collapse id="navbarScroll" className="gap-3" style={{maxWidth: 600}}>
           <Form className="d-flex">
             <Form.Control
               type="search"
@@ -29,7 +32,7 @@ function NavbarComponent() {
             <Button variant="outline-success">Search</Button>
           </Form>
 
-          <Nav className="me-auto my-lg-0" style={{ maxHeight: "100px" }}>
+          <Nav className="my-lg-0 gap-3" style={{ maxHeight: "100px" }}>
             <Nav.Link href="#action1">Category</Nav.Link>
             <Nav.Link href="#action2">Log in</Nav.Link>
             <NavDropdown id="navbarScrollingDropdown">

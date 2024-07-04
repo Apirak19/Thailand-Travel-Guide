@@ -11,3 +11,13 @@
   display: flex;
   justify-content: center;
 }
+
+.carousel-img {
+  margin: 0 auto;
+  height: 500px;
+  object-fit: cover;
+}
+
+.prevArrow {
+  background-image: url("./assets/arrow-left.svg");
+}
